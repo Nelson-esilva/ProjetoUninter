@@ -80,7 +80,7 @@ def remover_livro():
                 lista_livro.append(item)                                        #Adiciona o item retirado para o fim da lista.
         lista_livro.pop()                                                       #Remove op ultimo item da lista.
         print('Removido com sucesso. Há {} livros restantes.\n '.format(len(lista_livro)))
-            print()
+        print()
     except ValueError:                                                          #Testa se a entrada fornecida foi caractere e solicita nova entrada.
         print('Opção Inválida. Tente novamente.')
     print('*' * 60)
